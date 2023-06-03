@@ -1,16 +1,22 @@
-# Winning## This project has Cypress 12 with Typescript.
+# Winning
+
+## This project has Cypress 12 with Typescript.
+
 ## Do Yarn Install 
+yarn install
+
 ## to run in headless 
 yarn test
+
 ## to run in headed
 yarn test:headed
 
-** to run in open
+## to run in open
 yarn test:open
 
-Reports are in folder 
+## Reports are in folder 
 cypress/reports
 
-Custom commands in path
+## Custom commands in path
 cypress/support/commands.ts
 
