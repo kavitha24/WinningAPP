@@ -1,0 +1,24 @@
+{
+  "name": "winning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run --browser chrome --headless",
+    "test:headed": "npx cypress run --browser chrome --headded",
+    "test:open": "npx cypress open",
+    "test:parallel": "npx cypress run --record --key=abc123 --parallel"    
+
+
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "12",
+    "mocha-junit-reporter": "^2.2.0"
+  },
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^3.5.0",
+    "typescript": "^5.1.3"
+  }
+}

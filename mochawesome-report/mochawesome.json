@@ -1,0 +1,163 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-06-03T04:58:24.549Z",
+    "end": "2023-06-03T04:58:34.952Z",
+    "duration": 10403,
+    "testsRegistered": 4,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "fd01174c-32a3-413b-bdba-6520b67fbf3e",
+      "title": "",
+      "fullFile": "cypress/e2e/userLogin.cy.ts",
+      "file": "cypress/e2e/userLogin.cy.ts",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "2f696eb7-9a9d-432e-8dd9-9fff6890f22c",
+          "title": "sauceDEMO USERLOGINS spec",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "login to sauceDemo with locked login and verify the error",
+              "fullTitle": "sauceDEMO USERLOGINS spec login to sauceDemo with locked login and verify the error",
+              "timedOut": null,
+              "duration": 1470,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos-passed\",\n  \"value\": \"cypress/e2e/userLogin.cy.ts\"\n}",
+              "code": "LoginCredentials_1.default.lockedUser();",
+              "err": {},
+              "uuid": "ea54a795-6f04-4b97-bec9-cba7979fc2ba",
+              "parentUUID": "2f696eb7-9a9d-432e-8dd9-9fff6890f22c",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "login to sauceDemo with standard login and verify the Homepage is loading with all details",
+              "fullTitle": "sauceDEMO USERLOGINS spec login to sauceDemo with standard login and verify the Homepage is loading with all details",
+              "timedOut": null,
+              "duration": 1008,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos-passed\",\n  \"value\": \"cypress/e2e/userLogin.cy.ts\"\n}",
+              "code": "LoginCredentials_1.default.standardLogin();",
+              "err": {},
+              "uuid": "063f86bb-2394-4df2-9ee8-f229228859de",
+              "parentUUID": "2f696eb7-9a9d-432e-8dd9-9fff6890f22c",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "login to sauceDemo with problem login and verify the password alert",
+              "fullTitle": "sauceDEMO USERLOGINS spec login to sauceDemo with problem login and verify the password alert",
+              "timedOut": null,
+              "duration": 876,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos-passed\",\n  \"value\": \"cypress/e2e/userLogin.cy.ts\"\n}",
+              "code": "LoginCredentials_1.default.problemUser();",
+              "err": {},
+              "uuid": "579da6b6-d69c-4d2e-82ed-31db9884c25d",
+              "parentUUID": "2f696eb7-9a9d-432e-8dd9-9fff6890f22c",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "login to sauceDemo with performance login and verify the user can login within 3secs",
+              "fullTitle": "sauceDEMO USERLOGINS spec login to sauceDemo with performance login and verify the user can login within 3secs",
+              "timedOut": null,
+              "duration": 6213,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos-passed\",\n  \"value\": \"cypress/e2e/userLogin.cy.ts\"\n}",
+              "code": "LoginCredentials_1.default.performanceGlitchUser();",
+              "err": {},
+              "uuid": "778debe8-a951-4f2d-8163-d15b62f579fa",
+              "parentUUID": "2f696eb7-9a9d-432e-8dd9-9fff6890f22c",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "ea54a795-6f04-4b97-bec9-cba7979fc2ba",
+            "063f86bb-2394-4df2-9ee8-f229228859de",
+            "579da6b6-d69c-4d2e-82ed-31db9884c25d",
+            "778debe8-a951-4f2d-8163-d15b62f579fa"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 9567,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "charts": true,
+        "reportPageTitle": "custom-title",
+        "embeddedScreenshots": true,
+        "inlineAssets": true,
+        "saveAllAttempts": false
+      },
+      "version": "6.2.0"
+    }
+  }
+}
