@@ -15,7 +15,7 @@ class SearchProduct {
     cy.get(this.search).type(`${value}`);
     cy.intercept(
       "GET",
-      `/https://magento.softwaretestingboard.com/search/ajax/suggest/?q=+${value}/.*`,
+      `/https://magento.softwaretestingboard.com/search/ajax/suggest/?q=${value.trim()}+/.*`,
       {
         statusCode: 200,
       }
